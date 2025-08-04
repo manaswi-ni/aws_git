@@ -1,4 +1,3 @@
-<<<<<<< HEAD
 import subprocess
 
 def is_git_connected():
@@ -39,14 +38,3 @@ def lambda_handler(event=None, context=None):
             "statusCode": 200,
             "body": f"'{word}' is not a palindrome"
         }
-=======
-def lambda_handler(event, context):
-    a = 10
-    b = 15
-    result = a + b
-    
-    return {
-        'statusCode': 200,
-        'body': f'The sum of {a} and {b} is {result}'
-    }
->>>>>>> 6790e5abd873d1034cdc1380e05af4b4756d5866
