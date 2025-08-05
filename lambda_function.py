@@ -19,7 +19,7 @@ if __name__ == "__main__":
         print("✅ Git is connected. You may deploy.")
     
     # Run palindrome check locally for testing
-    word = "madam"  # Example input
+    word = "level"  # Example input
     if word == word[::-1]:
         print(f"'{word}' is a palindrome")
     else:
@@ -27,7 +27,7 @@ if __name__ == "__main__":
 
 # AWS Lambda entry point
 def lambda_handler(event=None, context=None):
-    word = "madam"  # Example input
+    word = "level"  # Example input
     if word == word[::-1]:
         return {
             "statusCode": 200,
